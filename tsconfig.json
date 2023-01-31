@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "outDir": "lib",
+//    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "declaration": true,
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "target": "es2022",
+    "lib": [
+      "ES2021"
+    ],
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "moduleResolution": "node16",
+    "isolatedModules": true,
+    "strictNullChecks": true,
+    "stripInternal": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmitOnError": true,
+    "skipLibCheck": true
+//    "paths": {
+//      "ethers/providers": ["./node_modules/ethers/lib.commonjs/providers"]
+//    },
+//    "typeRoots": [
+//      "./node_modules/@types",
+//      "./node_modules/ethers/types/providers"
+//    ],
+//    "traceResolution": true
+  },
+  "exclude": [ "lib"]
+  //  "include": ["./node_modules/ethers/types/providers"]
+}
